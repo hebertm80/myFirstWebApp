@@ -41,6 +41,16 @@
 	<secret>6GZRYJTAQWKU/TKK7COSUD1IM+NIKDHMUOXMLWHCRPU=</secret>
       </configuration>
     </plugin>
+
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+            <encoding>UTF-8</encoding>
+            <source>1.5</source>
+            <target>1.5</target>
+        </configuration>
+     </plugin>
   </plugins>
   </build>
 </project>
